@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Updated Node.js Basics",
+    "courseObjective": "Learn the fundamentals of Node.js",
+    "description": "This course covers the basics of Node.js programming.",
+    "lessons": [
+      {
+        "title": "Introduction to Node.js",
+        "learningObjective": "Understand what Node.js is and its features."
+      },
+      {
+        "title": "Node.js Modules",
+        "learningObjective": "Learn about Node.js modules and how to use them."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Agile Leadership",
+    "courseObjective": "Develop agile leadership skills",
+    "description": "Course oriented to develop planning, monitoring, reviewing and retrospecting skills.",
+    "lessons": [
+      {
+        "title": "Planning",
+        "learningObjective": "Learn to plan"
+      },
+      {
+        "title": "Monitoring",
+        "learningObjective": "learn to monitor"
+      },
+      {
+        "title": "Reviewing",
+        "learningObjective": "learn to review"
+      },
+      {
+        "title": "Retrospecting",
+        "learningObjective": "learn to retrospect"
+      }
+    ],
+    "recommendations": [
+      "Lesson 1: Introduction to Agile Leadership<br><br>Contenidos: Introducción a los principios del liderazgo ágil, roles y responsabilidades en equipos ágiles.<br>Actividades: Discusión en grupo sobre las diferencias entre liderazgo tradicional y ágil, simulaciones de situaciones de liderazgo en equipos ágiles.<br>Tipos de recursos: Videos cortos con ejemplos de liderazgo ágil en acción, presentaciones interactivas sobre los principios del liderazgo ágil.<br>Evaluación: Examen escrito sobre los conceptos clave del liderazgo ágil, presentación oral sobre la aplicación de los principios ágiles en un proyecto.<br><br>Lesson 2: Planning and Monitoring in Agile Leadership<br><br>Contenidos: Métodos de planificación ágil, herramientas de seguimiento y control en equipos ágiles.<br>Actividades: Creación de un plan ágil para un proyecto ficticio, revisión de métricas y KPIs en un proyecto ágil.<br>Tipos de recursos: Tutoriales en video sobre herramientas de gestión ágil, presentaciones sobre estrategias de planificación en el liderazgo ágil.<br>Evaluación: Elaboración de un informe de seguimiento de un proyecto ágil, participación en una retrospectiva sobre la planificación y monitorización en un equipo ágil.<br><br>Lesson 3: Reviewing and Retrospecting in Agile Leadership<br><br>Contenidos: Procesos de revisión y retrospección en equipos ágiles, identificación de áreas de mejora en la gestión ágil.<br>Actividades: Realización de una retrospectiva en un proyecto ágil real, análisis de errores y aciertos en la gestión ágil.<br>Tipos de recursos: Estudios de caso en video sobre retrospecciones exitosas en equipos ágiles, presentaciones sobre la importancia de aprender de los errores en el liderazgo ágil.<br>Evaluación: Presentación oral sobre las lecciones aprendidas de una retrospectiva en un proyecto ágil, redacción de un plan de mejora basado en los resultados de la revisión de un proyecto ágil."
+    ],
+    "recommendationsDone": true
+  },
+  {
+    "id": 3,
+    "title": "ASd",
+    "courseObjective": "asd",
+    "description": "asdad",
+    "lessons": [
+      {
+        "title": "adasd",
+        "learningObjective": "dasdas"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "fasfa",
+    "courseObjective": "fsafas",
+    "description": "fasfsa",
+    "lessons": [
+      {
+        "title": "safsaf",
+        "learningObjective": "asfasf"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "gsdgda",
+    "courseObjective": "afgg",
+    "description": "gsdgs",
+    "lessons": [
+      {
+        "title": "gsadg",
+        "learningObjective": "sadgsg"
+      }
+    ],
+    "recommendationsDone": false
+  }
+]
