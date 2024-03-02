@@ -16,8 +16,8 @@ app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Create a public express folder
-app.use(express.static('../public'));
+//Create a public express folder use dirname
+app.use(express.static(__dirname + '/../public'));
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
@@ -122,4 +122,5 @@ app.post('/courses/:id/recommendations', async (req, res) => {
 
 app.listen(port,"0.0.0.0", () => {
     console.log(`Server is running on port ${port}`);
+    console.log(__dirname + '/../public');
 });

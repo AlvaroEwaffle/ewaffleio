@@ -140,7 +140,9 @@
             const courseDetails = document.getElementById('details');
 
             // Fetch courses from the backend
-            fetch('http://localhost:8080/courses')
+            const port = process.env.PORT || 3000;
+
+            fetch(`http://localhost:${port}/courses`)
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(course => {
