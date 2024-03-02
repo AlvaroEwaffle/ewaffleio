@@ -9,7 +9,9 @@ var fs = require('fs');
 
 
 const app = express();
-const port = 8080;
+// Use PORT provided in environment or default to 3000
+const port = process.env.PORT || 3000;
+
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -118,6 +120,6 @@ app.post('/courses/:id/recommendations', async (req, res) => {
 })
 
 
-app.listen(port, () => {
+app.listen(port,"0.0.0.0", () => {
     console.log(`Server is running on port ${port}`);
 });
