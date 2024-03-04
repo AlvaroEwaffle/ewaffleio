@@ -34,7 +34,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Create a new instance of CourseManager
-const courseManager = new CourseManager("../assets/courses.json");
+const courseManager = new CourseManager(__dirname + '../assets/courses.json');
 
 // Create a new instance of OpenAiRecommendation
 const openAIRecommendation = new OpenAIRecommendation();
