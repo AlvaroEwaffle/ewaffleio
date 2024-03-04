@@ -142,7 +142,7 @@
             // Fetch courses from the backend
             //const port = process.env.PORT || 3000;
 
-            fetch(`ewaffleio/courses`)
+            fetch(`/courses`)
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(course => {
