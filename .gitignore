@@ -1,0 +1,8 @@
+
+# Ignore files with .log extension
+
+# Ignore a specific directory
+node_modules/
+old/
+
+# Ignore all files with .tmp extension in any directory

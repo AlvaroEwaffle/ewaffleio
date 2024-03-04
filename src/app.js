@@ -2,22 +2,33 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const CourseManager = require('./CourseManager'); // Assuming CourseManager is defined in a separate file
 const OpenAIRecommendation = require('./OpenAIRecommendation');
+const handlebars = require('express-handlebars');
 const cors = require('cors'); // Import the cors middleware
+
+// Use PORT provided in environment or default to 3000
+const port = process.env.PORT || 3000;
 
 const http = require('http');
 var fs = require('fs');
 
-
 const app = express();
-// Use PORT provided in environment or default to 3000
-const port = process.env.PORT || 3000;
+
+//Set engine handlebars
+//app.engine('handlebars',handlebars.engine())
+//app.set('views',__dirname+'/../views')
+//app.set('view engine','handlebars')
+
+//Set get index
+//app.get('/', (req, res) => {
+//    res.render('index', {port});
+//})
+
+//Create a public express folder use dirname
+app.use(express.static(__dirname + '/../public'));
 
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-//Create a public express folder use dirname
-app.use(express.static(__dirname + '/../public'));
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
@@ -27,6 +38,8 @@ const courseManager = new CourseManager("../assets/courses.json");
 
 // Create a new instance of OpenAiRecommendation
 const openAIRecommendation = new OpenAIRecommendation();
+
+
 
 // Route to get all courses
 app.get('/courses', (req, res) => {
@@ -119,8 +132,6 @@ app.post('/courses/:id/recommendations', async (req, res) => {
     
 })
 
-
 app.listen(port,"0.0.0.0", () => {
     console.log(`Server is running on port ${port}`);
-    console.log(__dirname + '/../public');
 });

@@ -117,7 +117,7 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Course List</a></li>
+            <li><a href="index.html">Course List </a></li>
             <li><a href="newCourse.html">Add a new Course</a></li>
         </ul>
     </nav>
@@ -138,23 +138,9 @@
         document.addEventListener("DOMContentLoaded", function () {
             const coursesList = document.getElementById('courses');
             const courseDetails = document.getElementById('details');
-
-            // Fetch courses from the backend
-            //const port = process.env.PORT || 3000;
-
-            fetch(`ewaffleio-production.up.railway.app/courses`)
-                .then(response => response.json())
-                .then(data => {
-                    data.forEach(course => {
-                        const listItem = document.createElement('li');
-                        listItem.classList.add('course-item');
-                        listItem.innerHTML = `<span class="course-title">${course.title}</span>`;
-                        listItem.addEventListener('click', () => showCourseDetails(course));
-                        coursesList.appendChild(listItem);
-                        console.log(course);
-                    });
-                })
-                .catch(error => console.error('Error fetching courses:', error));
+            console.log(`http://localhost:`{{port}}`/courses`);
+            
+          
 
             // Function to display course details
             function showCourseDetails(course) {
@@ -202,7 +188,7 @@
 
 
                 // Get Recommendations from OpenAI
-                fetch('http://localhost:8080/courses', {
+                fetch('ewaffleio.railway.internal/courses', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
