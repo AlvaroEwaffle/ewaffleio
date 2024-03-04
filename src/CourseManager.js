@@ -4,6 +4,7 @@ class CourseManager {
     constructor(filePath) {
         this.filePath = filePath;
         this.courses = this.loadCourses();
+        console.log(this);
     }
 
     loadCourses() {

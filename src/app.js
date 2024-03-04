@@ -4,6 +4,7 @@ const CourseManager = require('./CourseManager'); // Assuming CourseManager is d
 const OpenAIRecommendation = require('./OpenAIRecommendation');
 const handlebars = require('express-handlebars');
 const cors = require('cors'); // Import the cors middleware
+const filedir = __dirname + '/../assets/courses.json';
 
 // Use PORT provided in environment or default to 3000
 const port = process.env.PORT || 3000;
@@ -34,11 +35,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Create a new instance of CourseManager
-const courseManager = new CourseManager(__dirname + '../assets/courses.json');
+const courseManager = new CourseManager(filedir);
 
 // Create a new instance of OpenAiRecommendation
 const openAIRecommendation = new OpenAIRecommendation();
-
 
 
 // Route to get all courses
