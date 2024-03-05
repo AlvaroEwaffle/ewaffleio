@@ -4,5 +4,6 @@
 # Ignore a specific directory
 node_modules/
 old/
+views/
 
 # Ignore all files with .tmp extension in any directory
