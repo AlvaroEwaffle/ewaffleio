@@ -3,7 +3,6 @@ const OpenAI = require('openai');
 require('dotenv').config({ path: __dirname + '/../.env' })
 
 const { OPENAI_API_KEY } = process.env; // OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'YOUR_API_KEY_HERE';
-console.log("OPEN API KEY:", OPENAI_API_KEY) // remove this after you've confirmed it is working
 
 //Create a Class to handle ChatGpt Recommendations
 class OpenAIRecommendation {
