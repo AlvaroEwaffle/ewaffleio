@@ -1,11 +1,12 @@
 const OpenAI = require('openai');
-const ApiKey = process.env.OpenAIApiKey
+const OPENAIAPIKEY = process.env.OPENAI_API_KEY || 'YOUR_API_KEY_HERE';
+console.log(OPENAIAPIKEY);
 
 //Create a Class to handle ChatGpt Recommendations
 class OpenAIRecommendation {
     constructor() {
         this.openai = new OpenAI({
-            apiKey: ApiKey, // This is the default and can be omitted
+            apiKey: OPENAIAPIKEY, // This is the default and can be omitted
         });
     }
 //Method that gets a title description and multiple lessons and gives back a recommendation
