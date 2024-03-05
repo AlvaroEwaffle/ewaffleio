@@ -1,83 +1,107 @@
 [
   {
     "id": 1,
-    "title": "Updated Node.js Basics",
-    "courseObjective": "Learn the fundamentals of Node.js",
-    "description": "This course covers the basics of Node.js programming.",
+    "title": "Curso de Cocina",
+    "courseObjective": "Aprender a cocinar",
+    "description": "Aprender a cocinar",
     "lessons": [
       {
-        "title": "Introduction to Node.js",
-        "learningObjective": "Understand what Node.js is and its features."
+        "title": "Lo básico de la cocina",
+        "learningObjective": "Conocer los utencilios"
       },
       {
-        "title": "Node.js Modules",
-        "learningObjective": "Learn about Node.js modules and how to use them."
+        "title": "Mi primera receta",
+        "learningObjective": "Aprender a hacer huevo frito"
       }
+    ],
+    "recommendationsDone": true,
+    "recommendations": [
+      "Lesson 1: Introducción a la cocina<br><br>Recomendaciones:<br>Contenidos: Introducción a los conceptos básicos de la cocina, utensilios comunes y medidas de cocina.<br>Actividades: Realizar una lista de los utensilios que cada estudiante tiene en su cocina y comparar con una lista de utensilios recomendados para cocinar.<br>Recursos: Videos explicativos sobre el uso de utensilios de cocina, presentaciones con imágenes de los diferentes tipos de medidas de cocina.<br>Evaluaciones: Realizar una evaluación escrita sobre los conceptos básicos de cocina y la identificación de utensilios comunes.<br><br>Lesson 2: Técnicas de corte<br><br>Recomendaciones:<br>Contenidos: Aprender las diferentes técnicas de corte, como picar, cortar en juliana, brunoise, etc.<br>Actividades: Realizar ejercicios prácticos de corte de diferentes tipos de alimentos, como frutas, verduras y carne.<br>Recursos: Videos demostrativos de técnicas de corte, presentaciones con imágenes detalladas de cada técnica.<br>Evaluaciones: Realizar una evaluación práctica donde los estudiantes deben demostrar que dominan las diferentes técnicas de corte.<br><br>Lesson 3: Cocina básica<br><br>Recomendaciones:<br>Contenidos: Preparación de platos básicos como arroz, pasta, ensaladas, etc.<br>Actividades: Realizar recetas sencillas en clase, con la guía del instructor, para practicar las técnicas aprendidas.<br>Recursos: Videos de recetas básicas, presentaciones con pasos detallados de preparación.<br>Evaluaciones: Preparar un plato básico en casa y presentarlo en clase para ser evaluado por el instructor, teniendo en cuenta sabor, presentación y técnica utilizada.",
+      "Lesson: Introducción a la cocina<br><br>Recomendaciones:<br>Contenidos: Introducir los conceptos básicos de la cocina, como medidas, técnicas y utensilios.<br>Actividades: Realizar una clase demostrativa donde los alumnos puedan ver en acción las técnicas básicas de cocina.<br>Tipos de recursos: Video tutorial sobre las técnicas básicas de cocina.<br>Evaluaciones: Realizar una evaluación escrita sobre los conceptos aprendidos en la lección.<br><br>Lesson: Cocina italiana<br><br>Recomendaciones:<br>Contenidos: Aprender sobre los platos más populares de la cocina italiana y sus ingredientes principales.<br>Actividades: Realizar una clase práctica donde los alumnos preparen una receta italiana.<br>Tipos de recursos: Presentación con imágenes de platos italianos tradicionales.<br>Evaluaciones: Evaluar la preparación y presentación de la receta italiana realizada por los alumnos.<br><br>Lesson: Cocina asiática<br><br>Recomendaciones:<br>Contenidos: Conocer las características de la cocina asiática y sus ingredientes típicos.<br>Actividades: Realizar una degustación de platos asiáticos para experimentar diferentes sabores.<br>Tipos de recursos: Videos de recetas de cocina asiática.<br>Evaluaciones: Realizar una prueba escrita sobre los platos más representativos de la cocina asiática."
     ]
   },
   {
     "id": 2,
-    "title": "Agile Leadership",
-    "courseObjective": "Develop agile leadership skills",
-    "description": "Course oriented to develop planning, monitoring, reviewing and retrospecting skills.",
+    "title": "Curso de Manejo",
+    "courseObjective": "Aprender a manejar",
+    "description": "Aprender a manejar",
     "lessons": [
       {
-        "title": "Planning",
-        "learningObjective": "Learn to plan"
+        "title": "Lo basico",
+        "learningObjective": "El manubrio"
       },
       {
-        "title": "Monitoring",
-        "learningObjective": "learn to monitor"
-      },
-      {
-        "title": "Reviewing",
-        "learningObjective": "learn to review"
-      },
-      {
-        "title": "Retrospecting",
-        "learningObjective": "learn to retrospect"
+        "title": "Las señales",
+        "learningObjective": "Del transito"
       }
     ],
+    "recommendationsDone": true,
     "recommendations": [
-      "Lesson 1: Introduction to Agile Leadership<br><br>Contenidos: Introducción a los principios del liderazgo ágil, roles y responsabilidades en equipos ágiles.<br>Actividades: Discusión en grupo sobre las diferencias entre liderazgo tradicional y ágil, simulaciones de situaciones de liderazgo en equipos ágiles.<br>Tipos de recursos: Videos cortos con ejemplos de liderazgo ágil en acción, presentaciones interactivas sobre los principios del liderazgo ágil.<br>Evaluación: Examen escrito sobre los conceptos clave del liderazgo ágil, presentación oral sobre la aplicación de los principios ágiles en un proyecto.<br><br>Lesson 2: Planning and Monitoring in Agile Leadership<br><br>Contenidos: Métodos de planificación ágil, herramientas de seguimiento y control en equipos ágiles.<br>Actividades: Creación de un plan ágil para un proyecto ficticio, revisión de métricas y KPIs en un proyecto ágil.<br>Tipos de recursos: Tutoriales en video sobre herramientas de gestión ágil, presentaciones sobre estrategias de planificación en el liderazgo ágil.<br>Evaluación: Elaboración de un informe de seguimiento de un proyecto ágil, participación en una retrospectiva sobre la planificación y monitorización en un equipo ágil.<br><br>Lesson 3: Reviewing and Retrospecting in Agile Leadership<br><br>Contenidos: Procesos de revisión y retrospección en equipos ágiles, identificación de áreas de mejora en la gestión ágil.<br>Actividades: Realización de una retrospectiva en un proyecto ágil real, análisis de errores y aciertos en la gestión ágil.<br>Tipos de recursos: Estudios de caso en video sobre retrospecciones exitosas en equipos ágiles, presentaciones sobre la importancia de aprender de los errores en el liderazgo ágil.<br>Evaluación: Presentación oral sobre las lecciones aprendidas de una retrospectiva en un proyecto ágil, redacción de un plan de mejora basado en los resultados de la revisión de un proyecto ágil."
-    ],
-    "recommendationsDone": true
+      "Lesson 1: Normas de tránsito<br><br>Contenidos: Recomendaría incluir datos estadísticos sobre accidentes de tránsito y la importancia de respetar las normas de circulación.<br><br>Actividades: Realizar simulacros de situaciones de tráfico para poner en práctica las normas aprendidas.<br><br>Tipos de recursos: Videos explicativos sobre las normas de tránsito, presentaciones con infografías sobre señales de tráfico.<br><br>Evaluaciones: Realizar un examen teórico sobre las normas de tránsito y un ejercicio práctico de reconocimiento de señales.<br><br>Lesson 2: Manejo defensivo<br><br>Contenidos: Enseñar técnicas para anticiparse a posibles riesgos en la carretera y cómo reaccionar de forma segura ante ellos.<br><br>Actividades: Realizar ejercicios de identificación de situaciones de riesgo y cómo evitarlas.<br><br>Tipos de recursos: Videos de situaciones de riesgo en la conducción, presentaciones con consejos de expertos en manejo defensivo.<br><br>Evaluaciones: Evaluar la capacidad de anticipación del estudiante ante situaciones de riesgo y un examen práctico de manejo defensivo.<br><br>Lesson 3: Mantenimiento del vehículo<br><br>Contenidos: Explicar la importancia del mantenimiento periódico del vehículo y cómo realizar revisiones básicas.<br><br>Actividades: Realizar una prueba de identificación de componentes del vehículo y cómo revisar su estado.<br><br>Tipos de recursos: Tutoriales en video sobre mantenimiento de vehículos, presentaciones con esquemas de los componentes del automóvil.<br><br>Evaluaciones: Realizar un examen teórico sobre mantenimiento básico de vehículos y una evaluación práctica de revisión de componentes."
+    ]
   },
   {
     "id": 3,
-    "title": "ASd",
-    "courseObjective": "asd",
-    "description": "asdad",
+    "title": "Curso de Manejo",
+    "courseObjective": "Aprender a manejar",
+    "description": "Aprender a manejar",
     "lessons": [
       {
-        "title": "adasd",
-        "learningObjective": "dasdas"
+        "title": "Lo basico",
+        "learningObjective": "El manubrio"
+      },
+      {
+        "title": "Las señales",
+        "learningObjective": "Del transito"
       }
+    ],
+    "recommendationsDone": true,
+    "recommendations": [
+      "Lección 1: Reglas de tránsito<br><br>Recomendaciones:<br>- Contenidos: Explicar de manera clara y concisa las principales reglas de tránsito, señales de tránsito y normas de seguridad vial.<br>- Actividades: Realizar simulacros de situaciones en la vía para poner en práctica las reglas aprendidas.<br>- Tipos de recursos: Utilizar presentaciones interactivas con ejemplos visuales de señales de tránsito y videos explicativos sobre normas de seguridad vial.<br>- Evaluaciones: Realizar pruebas escritas y prácticas sobre las reglas de tránsito, además de evaluar la capacidad de los estudiantes para aplicarlas en situaciones reales.<br><br>Lección 2: Técnicas de conducción<br><br>Recomendaciones:<br>- Contenidos: Enseñar técnicas básicas de manejo como control del volante, frenado, aceleración, entre otros.<br>- Actividades: Realizar ejercicios prácticos en un circuito cerrado para practicar las técnicas de manejo aprendidas.<br>- Tipos de recursos: Utilizar videos instructivos con demostraciones de técnicas de manejo y actividades interactivas para mejorar la destreza al volante.<br>- Evaluaciones: Evaluar la destreza y precisión de los estudiantes al aplicar las técnicas de conducción en situaciones controladas y reales.<br><br>Espero que estas recomendaciones sean útiles para el curso de manejo. ¡Éxito en su planificación educativa!"
     ]
   },
   {
     "id": 4,
-    "title": "fasfa",
-    "courseObjective": "fsafas",
-    "description": "fasfsa",
+    "title": "Curso de Fotografia",
+    "courseObjective": "Aprender a fotografiar",
+    "description": "Curso orientado a personas que quieran aprender a fotografiar con su ihpone.",
     "lessons": [
       {
-        "title": "safsaf",
-        "learningObjective": "asfasf"
+        "title": "La luz",
+        "learningObjective": "Aprender los princpios de la luz"
+      },
+      {
+        "title": "La camara",
+        "learningObjective": "Aprender sobre lentes"
       }
+    ],
+    "recommendationsDone": true,
+    "recommendations": [
+      "Para el curso de Fotografía con iPhone, las recomendaciones serían las siguientes:<br><br>Lección 1: Introducción a la fotografía móvil<br>- Contenidos: Introducción a los conceptos básicos de la fotografía, como encuadre, composición y luz.<br>- Actividades: Realizar ejercicios de composición y búsqueda de diferentes tipos de luz para fotografiar.<br>- Recursos: Presentaciones interactivas y videos tutoriales sobre composición y técnicas de fotografía móvil.<br>- Evaluación: Realizar una pequeña serie de fotografías aplicando los conceptos aprendidos en la lección.<br><br>Lección 2: Edición de fotografías en el iPhone<br>- Contenidos: Uso de aplicaciones de edición de fotos en el iPhone, como Lightroom y Snapseed.<br>- Actividades: Practicar la edición de fotografías tomadas en la lección anterior.<br>- Recursos: Tutoriales en video sobre el uso de diferentes aplicaciones de edición de fotos.<br>- Evaluación: Presentar una serie de fotografías editadas utilizando las herramientas aprendidas en la lección.<br><br>Lección 3: Composición y encuadre en fotografía móvil<br>- Contenidos: Técnicas avanzadas de composición y encuadre en la fotografía móvil.<br>- Actividades: Realizar ejercicios prácticos de composición y encuadre en diferentes situaciones.<br>- Recursos: Ejemplos visuales de fotografías con buena composición y encuadre.<br>- Evaluación: Crear una serie de fotografías que demuestren el dominio de las técnicas de composición y encuadre aprendidas en la lección.<br><br>Lección 4: Creación de proyectos fotográficos con el iPhone<br>- Contenidos: Planificación y realización de proyectos fotográficos utilizando el iPhone.<br>- Actividades: Desarrollar un proyecto fotográfico personal utilizando las técnicas aprendidas en el curso.<br>- Recursos: Ejemplos de proyectos fotográficos realizados con iPhone.<br>- Evaluación: Presentar el proyecto fotográfico final, acompañado de una breve explicación de la temática y el proceso de creación."
     ]
   },
   {
     "id": 5,
-    "title": "gsdgda",
-    "courseObjective": "afgg",
-    "description": "gsdgs",
+    "title": "Curso de Lectura Rapida",
+    "courseObjective": "Mejorar las habilidades de lectura",
+    "description": "Mejorar las habilidades de lectura",
     "lessons": [
       {
-        "title": "gsadg",
-        "learningObjective": "sadgsg"
+        "title": "Basico",
+        "learningObjective": "Mejorar las habilidades de lectura"
+      },
+      {
+        "title": "Intermedio",
+        "learningObjective": "Mejorar las habilidades de lectura"
+      },
+      {
+        "title": "Avanzado",
+        "learningObjective": "Mejorar las habilidades de lectura"
       }
     ],
-    "recommendationsDone": false
+    "recommendationsDone": true,
+    "recommendations": [
+      "Lesson 1: Técnicas básicas de lectura rápida<br><br>Recomendaciones:<br>- Contenidos: Incluir métodos de escaneo de texto, técnicas de subrayado y resumen de información.<br>- Actividades: Realizar ejercicios prácticos de lectura rápida con textos cortos.<br>- Tipos de recursos: Videos explicativos sobre las diferentes técnicas de lectura rápida.<br>- Evaluaciones: Realizar pruebas de lectura con cronómetro para medir la velocidad y comprensión de los estudiantes.<br><br>Lesson 2: Mejora de la comprensión lectora<br><br>Recomendaciones:<br>- Contenidos: Enseñar estrategias para mejorar la comprensión de textos complejos.<br>- Actividades: Realizar lecturas guiadas y sesiones de discusión para profundizar en la comprensión.<br>- Tipos de recursos: Presentaciones interactivas con ejemplos de textos para practicar la comprensión.<br>- Evaluaciones: Realizar ensayos escritos analizando la comprensión de un texto específico.<br><br>Lesson 3: Entrenamiento de velocidad y comprensión<br><br>Recomendaciones:<br>- Contenidos: Incluir ejercicios avanzados de velocidad y comprensión lectora.<br>- Actividades: Realizar sesiones de lectura cronometrada y ejercicios de comprensión rápida.<br>- Tipos de recursos: Aplicaciones y herramientas en línea para practicar la velocidad de lectura.<br>- Evaluaciones: Realizar pruebas de lectura con textos más extensos para evaluar la mejora en velocidad y comprensión."
+    ]
   }
 ]

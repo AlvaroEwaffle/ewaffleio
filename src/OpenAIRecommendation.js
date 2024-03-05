@@ -4,7 +4,7 @@ const OpenAI = require('openai');
 class OpenAIRecommendation {
     constructor() {
         this.openai = new OpenAI({
-            apiKey: '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', // This is the default and can be omitted
+            apiKey: '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', // This is the default and can be omitted
         });
     }
 //Method that gets a title description and multiple lessons and gives back a recommendation

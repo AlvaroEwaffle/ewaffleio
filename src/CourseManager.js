@@ -29,7 +29,7 @@ class CourseManager {
 
     addCourse(title, courseObjective, description, lessons,) {
         const id = this.getNextId();
-        const course = { id, title, courseObjective, description, lessons, recommendationsDone: false };
+        const course = { id, title, courseObjective, description, lessons, recommendationsDone: false , recommendations: []};
         this.courses.push(course);
         this.saveCourses();
         return course;
@@ -66,15 +66,19 @@ class CourseManager {
 
     async addRecommendation(courseId, recommendation) {
         const course = this.getCourseById(courseId);
-        if (!course) {
-            res.status(404).send('Course not found');
-            return;
-        }
+        if (!course) {res.status(404).send('Course not found');return;
+    }
         //Push recommendation ton the course object in the file
-        course.recommendations.push(recommendation);
-        course.recommendationsDone = true;
-        this.saveCourses();
-        return true;
+        try {
+            course.recommendations.push(recommendation);
+            course.recommendationsDone = true;
+            this.saveCourses();
+            console.log(course);
+            return true;
+        } catch (error) {
+            console.error(error);
+            return false;
+        }
     }
 }
 

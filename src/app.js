@@ -116,16 +116,15 @@ app.put('/courses/:id', (req, res) => {
 
 
 //Route to add a recommendation from OpenAI to a course given its ID
-app.post('/courses/:id/recommendations', async (req, res) => {
+app.get('/courses/:id/recommendations', async (req, res) => {
     const courseId = parseInt(req.params.id);
-    //const { title } = req.body;
+    if(!courseId){res.status(404).send('Course ID must be provided'); return;}
     const course = courseManager.getCourseById(courseId);
-    if (!course) {
-        res.status(404).send('Course not found');
-        return;
-    }
+    if(course.recommendationsDone){res.status(404).send('Recommendations already done');return;}
+    if (!course) {res.status(404).send('Course not found');return;
+}
     const recommendation = await openAIRecommendation.getRecommendation(course.title, course.description, course.lessons);
-    if(!recommendation){res.status(404).send('Error generating recommendation'); return;}
+    if(!recommendation){res.error(404).send('Error generating recommendation'); return;}
     const result = await courseManager.addRecommendation(courseId,recommendation);
     if(result){res.send('Recommendation added successfully');}
     else {res.status(404).send('Error adding recommendation');}
