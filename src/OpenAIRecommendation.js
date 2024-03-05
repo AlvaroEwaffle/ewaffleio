@@ -1,5 +1,4 @@
 const OpenAI = require('openai');
-const OPENAIAPIKEY = process.env.OPENAI_API_KEY || 'YOUR_API_KEY_HERE';
 console.log(OPENAIAPIKEY);
 
 //Create a Class to handle ChatGpt Recommendations
