@@ -34,7 +34,7 @@ class OpenAIRecommendation {
 
         const responses = await Promise.all(promises);
         const formattedResponses = responses.map((response, index) => {
-            return `Recomendaciones para la lección ${index + 1}: ${response}`;
+            return `\n\nRecomendaciones para la lección ${index + 1}: ${response}`;
         });
 
         const combinedResponse = formattedResponses.join('\n\n');
