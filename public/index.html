@@ -118,7 +118,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Course List</a></li>
-            <li><a href="NewCourse.html">Add a new Course</a></li>
+            <li><a href="newCourse.html">Add a new Course</a></li>
         </ul>
     </nav>
 
@@ -194,7 +194,7 @@
 
             function getRecommendations(course) {
                 console.log('Getting recommendations for course:', course.title, 'With ID', course.id);
-                courseDetails.innerHTML = '<p>Creando recomendaciones...</p>';
+                courseDetails.innerHTML = '<p>Creando recommendations...</p>';
 
                 // Get Recommendations from OpenAI
                 fetch('/courses/' + course.id + '/recommendations')

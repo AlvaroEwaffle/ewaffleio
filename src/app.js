@@ -14,16 +14,6 @@ var fs = require('fs');
 
 const app = express();
 
-//Set engine handlebars
-//app.engine('handlebars',handlebars.engine())
-//app.set('views',__dirname+'/../views')
-//app.set('view engine','handlebars')
-
-//Set get index
-//app.get('/', (req, res) => {
-//    res.render('index', {port});
-//})
-
 //Create a public express folder use dirname
 app.use(express.static(__dirname + '/../public'));
 

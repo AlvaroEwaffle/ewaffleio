@@ -103,5 +103,63 @@
     "recommendations": [
       "Lesson 1: Técnicas básicas de lectura rápida<br><br>Recomendaciones:<br>- Contenidos: Incluir métodos de escaneo de texto, técnicas de subrayado y resumen de información.<br>- Actividades: Realizar ejercicios prácticos de lectura rápida con textos cortos.<br>- Tipos de recursos: Videos explicativos sobre las diferentes técnicas de lectura rápida.<br>- Evaluaciones: Realizar pruebas de lectura con cronómetro para medir la velocidad y comprensión de los estudiantes.<br><br>Lesson 2: Mejora de la comprensión lectora<br><br>Recomendaciones:<br>- Contenidos: Enseñar estrategias para mejorar la comprensión de textos complejos.<br>- Actividades: Realizar lecturas guiadas y sesiones de discusión para profundizar en la comprensión.<br>- Tipos de recursos: Presentaciones interactivas con ejemplos de textos para practicar la comprensión.<br>- Evaluaciones: Realizar ensayos escritos analizando la comprensión de un texto específico.<br><br>Lesson 3: Entrenamiento de velocidad y comprensión<br><br>Recomendaciones:<br>- Contenidos: Incluir ejercicios avanzados de velocidad y comprensión lectora.<br>- Actividades: Realizar sesiones de lectura cronometrada y ejercicios de comprensión rápida.<br>- Tipos de recursos: Aplicaciones y herramientas en línea para practicar la velocidad de lectura.<br>- Evaluaciones: Realizar pruebas de lectura con textos más extensos para evaluar la mejora en velocidad y comprensión."
     ]
+  },
+  {
+    "id": 6,
+    "title": "Liderando con Agilidad para Product Owners",
+    "courseObjective": " Objetivos del Curso:  Entender los Fundamentos de Scrum: Proporcionar una comprensión sólida de los principios y prácticas fundamentales de Scrum, centrándose en el rol del Product Owner.  Preparación para la Certificación: Preparar a los participantes para la certificación Scrum Fundamentals de Scrum Study, cubriendo los conceptos clave necesarios para el éxito en el examen.  Aplicación Práctica: Capacitar a los participantes para aplicar los principios de Scrum en su trabajo diario como Product Owners, maximizando el valor del producto y mejorando la colaboración con los equipos.",
+    "description": "Este curso está diseñado para profesionales que desempeñan o aspiran a desempeñar el rol de Product Owner en equipos Scrum. El público objetivo incluye:\n\nProfesionales de gestión de productos\nGerentes de proyectos\nAnalistas de negocios\nLíderes de equipo\nDesarrolladores de software interesados en entender mejor el rol de Product Owner\n\nDuración 3 horas.",
+    "lessons": [
+      {
+        "title": "Introducción a Scrum y el Rol del Product Owner",
+        "learningObjective": " Comprender los principios básicos de Scrum y el papel crucial del Product Owner en el marco de trabajo ágil."
+      },
+      {
+        "title": "Responsabilidades y Competencias del Product Owner",
+        "learningObjective": " Identificar las responsabilidades clave del Product Owner y desarrollar las competencias necesarias para desempeñar el rol de manera efectiva."
+      },
+      {
+        "title": "Gestión del Product Backlog",
+        "learningObjective": "Aprender las mejores prácticas para gestionar el Product Backlog, incluyendo la priorización de elementos y la comunicación efectiva con el equipo."
+      },
+      {
+        "title": "Colaboración y Comunicación",
+        "learningObjective": "Mejorar las habilidades de comunicación y colaboración para trabajar de manera eficiente con el equipo de desarrollo, stakeholders y otros miembros del equipo Scrum."
+      },
+      {
+        "title": "Maximización del Valor del Producto",
+        "learningObjective": "Entender cómo maximizar el valor del producto mediante la entrega incremental y continua, la retroalimentación del cliente y la adaptación a los cambios."
+      },
+      {
+        "title": "Preparación para la Certificación",
+        "learningObjective": "Proporcionar estrategias y consejos prácticos para prepararse y aprobar con éxito el examen de certificación Scrum Fundamentals de Scrum Study."
+      }
+    ],
+    "recommendationsDone": true,
+    "recommendations": []
+  },
+  {
+    "id": 7,
+    "title": "Tecnicas Avanzadas de Facilitacion",
+    "courseObjective": "Desarrollar habilidades y practicas para la facilitación de reunions y workshops corporativos",
+    "description": "Curso orientado a Scrum Master y Facilitadores que deseen potenciar sus habilidades de facilitación de equipos y organizaciones.",
+    "lessons": [
+      {
+        "title": "Fundamentos de la Facilitación",
+        "learningObjective": "Alinear a los participantes del curso en relación al os fundamentos de la facilitación"
+      },
+      {
+        "title": "Técnicas de Facilitación",
+        "learningObjective": "Reconocer las técnicas que existen a la hora de facilitar un evento."
+      },
+      {
+        "title": "Errores más comunes en la facilitación",
+        "learningObjective": "Reconocer y mejorar los errores más comunes en la facilitación."
+      }
+    ],
+    "recommendationsDone": true,
+    "recommendations": [
+      "Recomendaciones para la lección 1: Contenidos: <br>- Concepto de facilitación y su importancia en la gestión de equipos y organizaciones.<br>- Habilidades y competencias necesarias para ser un facilitador efectivo.<br>- Herramientas y técnicas de facilitación, tales como la escucha activa, la gestión de conflictos, el diseño de agendas efectivas, entre otros.<br>- Casos de estudio y ejemplos reales de facilitación en diferentes contextos y situaciones.<br><br>Actividades: <br>- Dinámicas de grupo para practicar habilidades de facilitación, como role-playing, simulaciones de reuniones, y feedback entre los participantes.<br>- Análisis y discusión de casos de estudio para aplicar los conceptos aprendidos a situaciones concretas.<br>- Sesiones de coaching individualizado para que cada participante pueda trabajar en sus habilidades de facilitación de manera personalizada.<br><br>Recursos: <br>- Videos explicativos de conceptos clave de la facilitación.<br>- Presentaciones interactivas que faciliten la comprensión de los contenidos.<br>- Lecturas recomendadas de libros y artículos sobre facilitación.<br>- Herramientas digitales de colaboración para la realización de actividades grupales.<br><br>Evaluación:<br>- Evaluación continua a lo largo del curso, a través de la participación en actividades y discusiones en clase.<br>- Evaluación de casos de estudio y análisis de situaciones prácticas.<br>- Evaluación final basada en la aplicación de las técnicas de facilitación en un proyecto o situación real, con retroalimentación detallada por parte de los facilitadores del curso.<br><br>Con esta propuesta de contenidos, actividades, recursos y evaluación, los participantes del curso podrán adquirir un profundo conocimiento de los fundamentos de la facilitación y desarrollar sus habilidades de manera práctica y efectiva, garantizando una experiencia educativa enriquecedora y estimulante.\n\nRecomendaciones para la lección 2: Para desarrollar de manera óptima un curso basado en técnicas avanzadas de facilitación, se pueden considerar los siguientes elementos:<br><br>Contenidos:<br>- Tipos de facilitación: presentar las distintas técnicas de facilitación que existen, como la facilitación gráfica, la facilitación de design thinking o la facilitación de conflictos.<br>- Herramientas y recursos: mostrar las herramientas y recursos que facilitan el proceso de facilitación, como Design Thinking Tools, UX tools o herramientas de facilitación online.<br>- Casos de estudio: incluir casos reales de aplicación de técnicas de facilitación en diferentes contextos y situaciones.<br><br>Actividades:<br>- Role play: realizar situaciones simuladas donde los participantes puedan practicar la aplicación de las técnicas de facilitación.<br>- Trabajo en equipo: fomentar actividades en grupo donde los participantes apliquen las técnicas aprendidas en situaciones reales.<br>- Visitas de expertos: invitar a facilitadores expertos en distintas técnicas para que compartan sus experiencias y conocimientos.<br><br>Recursos:<br>- Videos explicativos: utilizar videos cortos y dinámicos para explicar las distintas técnicas de facilitación.<br>- Presentaciones interactivas: presentaciones visuales y dinámicas que faciliten la comprensión de los conceptos.<br>- Bibliografía recomendada: recomendar lecturas complementarias para profundizar en los distintos temas tratados en el curso.<br><br>Evaluación:<br>- Participación activa: evaluar la participación de los alumnos en las actividades y discusiones del curso.<br>- Trabajos prácticos: evaluar la aplicación de las técnicas de facilitación en situaciones reales.<br>- Evaluación final: realizar una evaluación final que abarque todos los conceptos y técnicas aprendidas durante el curso.<br><br>Con la inclusión de estos elementos, los participantes podrán experimentar una experiencia de aprendizaje enriquecedora y colaborativa que les permita potenciar sus habilidades de facilitación.\n\nRecomendaciones para la lección 3: Contenidos: <br>- Identificación de los errores más comunes en la facilitación y su impacto en los equipos y organizaciones.<br>- Técnicas y estrategias para evitar estos errores y mejorar la eficacia de la facilitación.<br>- Estudios de casos reales y ejemplos prácticos de situaciones de facilitación en equipos y organizaciones.<br><br>Actividades: <br>- Role playing: Simular situaciones de facilitación en las que se puedan identificar y corregir errores comunes.<br>- Análisis de casos prácticos: Estudiar casos reales de facilitación y discutir los errores cometidos y cómo podrían haberse evitado.<br>- Sesiones de práctica de facilitación: Dar la oportunidad a los participantes de practicar diferentes técnicas de facilitación y recibir retroalimentación.<br><br>Tipos de recursos: <br>- Videos de sesiones de facilitación: Mostrar ejemplos reales de facilitación para que los participantes puedan identificar los errores cometidos.<br>- Presentaciones interactivas: Incluir presentaciones dinámicas con ejemplos y consejos para mejorar la facilitación.<br>- Lecturas complementarias: Recomendar materiales de lectura sobre facilitación efectiva y errores comunes.<br><br>Evaluación: <br>- Evaluación continua a lo largo del curso para verificar la comprensión de los conceptos y la aplicación de las técnicas aprendidas.<br>- Evaluación de casos prácticos: Evaluar la capacidad de los participantes para identificar y corregir errores en situaciones de facilitación.<br>- Feedback de los participantes: Recoger comentarios de los participantes sobre su experiencia en el curso y cómo ha ayudado a mejorar sus habilidades de facilitación."
+    ]
   }
 ]
